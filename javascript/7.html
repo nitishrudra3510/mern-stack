@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">this is our web apge</div>
+
+    <script>
+        let i = 0;
+        //for loop
+        for(i=2; i<5; i++){
+            console.log(i);
+        }
+        let subject = ["cn", "web", "dsa", "python"];
+        for(let index = 0; index<subject.length; index++){
+            let element = subject[index];
+            console.log(element);
+        }
+
+        // for each
+        subject.forEach(function f(element){
+            console.log("my subject " + element);
+        })
+
+
+        // for of 
+        for(element of subject){
+            console.log("mysub "+element);
+        }
+    </script>
+
+
+</body>
+</html>
