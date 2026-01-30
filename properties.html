@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image</title>
+
+    <style>
+        .background {
+            color: #9999a8;
+            background-color: aqua;
+            border: 2px solid black;
+
+            background-image: url("1.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;   /* important */
+            padding: 50px;
+        }
+        h1{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 200%;
+            font-weight: 3000%;
+            text-align: center;
+            text-decoration: none;
+            text-align: justify;
+            text-decoration: none;
+            text-indent: 0;
+        }
+        p{
+            text-indent: 10%;
+            letter-spacing: 0.2rem;
+            word-spacing: 0.1rem;
+            line-height: 2;
+            /*text-shadow : x y z color*/
+            text-shadow: 2px 4px 1px red;
+        }
+
+        /* short hand properties....*/
+        p {
+    background: #fff url("1.jpg") no-repeat left top;
+    font: italic bold 12px Arial, sans-serif;
+    border-width: 1px solid red ;
+    margin: 10px 5px 10px 5px;
+    
+}
+
+    </style>
+</head>
+
+<body>
+    <h1>Our heading</h1>
+
+    <p class="background">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        Veniam iure, quod laborum deserunt quasi incidunt, labore maiores unde animi,
+        accusantium eius! Reiciendis magnam vitae assumenda iure vel ut recusandae magni.
+    </p>
+</body>
+</html>

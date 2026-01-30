@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning CSS</title>
+
+    <style>
+        /* Universal selector */
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Element selector */
+        h1 {
+            color: darkblue;
+        }
+
+        /* Adjacent sibling selector */
+        h1 + p {
+            color: blueviolet;
+        }
+
+        /* Descendant selector */
+        article p {
+            font-size: 16px;
+        }
+
+        /* Child selector */
+        article > p {
+            background-color: lightyellow;
+        }
+
+        /* ID selector */
+        #main-heading {
+            color: brown;
+        }
+
+        /* Class selector */
+        .highlight {
+            background-color: aquamarine;
+        }
+
+        /* Pseudo-class */
+        a:hover {
+            color: red;
+        }
+
+        /* Pseudo-element */
+        p::first-line {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <article>
+        <h1 id="main-heading">Learning CSS</h1>
+
+        <p class="highlight">
+            This paragraph comes right after h1.
+        </p>
+
+        <span>Inline element</span>
+
+        <div>
+            <p>Nested paragraph one.</p>
+            <p>Nested paragraph two.</p>
+        </div>
+
+        <a href="#">Hover me</a>
+    </article>
+
+</body>
+</html>

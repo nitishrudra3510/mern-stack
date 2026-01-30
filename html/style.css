@@ -1,0 +1,39 @@
+/* h1.special, li.special{
+    color: blue;
+    font-weight: bold;
+} */
+/* li em{
+    background-color: aliceblue;
+}
+h1+p{
+    color: blueviolet;
+}
+
+a:hover{
+    color: red;
+    background-color: rgb(160, 11, 11);
+}
+
+body h1+p .special{
+    color: blue;
+    background-color: aquamarine;
+} */
+/* 
+#heading{
+    color: rebeccapurple;
+}
+
+p#idselector{
+    color: yellowgreen;
+    background-color: brown;
+}
+
+li[class~="a"]{
+    color: antiquewhite;
+} */
+
+
+*{
+    list-style: none;
+    color: rebeccapurple;
+}
